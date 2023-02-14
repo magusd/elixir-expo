@@ -10,7 +10,7 @@ defmodule Expo.MixProject do
     [
       app: :expo,
       version: @version,
-      elixir: "~> 1.11",
+      elixir: ">= 1.1",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       docs: docs(),
